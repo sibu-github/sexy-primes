@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twin Primes|Cousin Primes|Sexy Primes</title>
+    <script src="script.js" type="text/javascript" async></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <script src="smoothscroll.min.js" async></script>
+</head>
+
+<body>
+    <div id="root">
+        <h1>List of
+            <select id="ptype">
+                <option value="twin">Twin</option>
+                <option value="cousin">Cousin</option>
+                <option value="sexy">Sexy</option>
+                <option value="other">Other Prime Gap</option>
+            </select>
+            Primes</h1>
+        <div id="pgdiv">
+            <label>Prime Gap:</label>
+            <input id="pgap" type="number" min="8" step="2" />
+            <button id="go">Go</button>
+        </div>
+        <div id="hr"></div>
+        <div>
+            <ul id="list"></ul>
+        </div>
+        <div id="scrolltop">
+            <button id="scrolltop-button">
+                <img src="back-to-top.jpg" alt="Scroll To Top" />
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
